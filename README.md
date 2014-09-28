@@ -1,5 +1,6 @@
 Sample Blog for Symfony Beginners
 ================================
+
 This is a simple sample which I - who was blank to Symfony -
 was making along with reading symfony documents during three days.
 Now I pushed it here just as some materials for beginners,
@@ -33,6 +34,7 @@ Execute the command: php app/console server:run
 
 7). Enjoy the ugly but functional pages
 Open the url: http://localhost:8000/app_dev.php/login
+
 
 Code Explanation
 -------------------------------
