@@ -1,39 +1,39 @@
 Sample Blog for Symfony Beginners
 ================================
 
-This is a simple sample which I - who was blank to Symfony -
-was making along with reading symfony documents during three days.
-Now I pushed it here just as some materials for beginners,
-and hope it will help you start your symfony career.
+This is a simple sample which I - who was blank to Symfony -<br/>
+was making along with reading symfony documents during three days.<br/>
+Now I pushed it here just as some materials for beginners,<br/>
+and hope it will help you start your symfony career.<br/>
 
 Download and install this project
 -------------------------------
 1). Install Composer
-Download and install composer from https://getcomposer.org/.
-Follow the steps to install composer
+    Download and install composer from https://getcomposer.org/.
+    Follow the steps to install composer
 
 2). Download Souce Code of this project
-Use TortoiseGit Clone the link: https://github.com/wwwbbb8510/symfony_startup_sample
-Or use git clone to get it
+    Use TortoiseGit Clone the link: https://github.com/wwwbbb8510/symfony_startup_sample
+    Or use git clone to get it
 
 3). Download and install dependencies
-Open a bash or windows cmd
-Go to the directory of symfony_startup_sample
-Execute the command: composer update
+    Open a bash or windows cmd
+    Go to the directory of symfony_startup_sample
+    Execute the command: composer update
 
 4). Clear symfony cache
-Execute the command: php app/console cache:clear --env=dev
+    Execute the command: php app/console cache:clear --env=dev
 
 5). Create Mysql user for this project
-The user used by this project is: (username: symfony_sample, password:symfony_sample_mysql, database: symfony)
-There are two ways to make it work. The first way is to create Mysql user as aforementioned.
-The second way is to create Mysql user as you want and then ajust the parameters in \app\config\parameters.yml
+    The user used by this project is: (username: symfony_sample, password:symfony_sample_mysql, database: symfony)
+    There are two ways to make it work. The first way is to create Mysql user as aforementioned.
+    The second way is to create Mysql user as you want and then ajust the parameters in \app\config\parameters.yml
 
 6). Run server by symfony console
-Execute the command: php app/console server:run
+    Execute the command: php app/console server:run
 
 7). Enjoy the ugly but functional pages
-Open the url: http://localhost:8000/app_dev.php/login
+    Open the url: http://localhost:8000/app_dev.php/login
 
 
 Code Explanation
